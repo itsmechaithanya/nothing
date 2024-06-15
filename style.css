@@ -1,0 +1,56 @@
+*{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+font-family: Gilroy-SemiBold;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+background-color:rgb(210, 217, 250);
+color: black;
+}
+#loader{
+    height: 100%; 
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    color: rgb(0, 0, 0);
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+#loader h3{
+    font-size: 2vw;
+    line-height: 1.5vw;
+    font-weight: 100;
+}
+#page1{
+    width: 100vw;
+    height: 100vh;
+}
+#page1 h1{
+    text-transform: capitalize;
+}
+#ma{
+    height: inherit;
+    display: flex;
+}
+#page1 #ma #left{
+    height: inherit;
+    width: 70%;
+}
+#page1 #ma #right{
+    height: inherit;
+    width: 30%;
+}
+#page1 #ma #right video{
+    height: 100%;
+    object-fit: cover;
+
+}
